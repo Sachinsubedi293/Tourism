@@ -11,3 +11,12 @@ a:hover{
 .light{
 background-color: lightgrey;
 }
+.da{
+   color: rgb(255, 0, 21);
+}
+.back{
+  background: lightgreen;
+}
+.container-fluid{
+   background-color: transparent;
+}
