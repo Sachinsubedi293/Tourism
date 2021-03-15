@@ -4,46 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourism NP.com</title>
-  <link rel="shortcut icon" href="Resources/logo.gif">
+<link rel="shortcut icon" href="Resources/logo.gif">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
 <link rel="stylesheet" href="css/Custom/style.css">
 <link rel="stylesheet" href="aos/aos.css">
+<style>
+  body{
+     font-family: ubunutu;
+     
+    
+     background-size: 400% 400%;
+     animation: gradient 15s ease infinite;
+   }
+   
+   @keyframes gradient {
+     0% {
+       background-position: 0% 50%;
+     }
+     50% {
+       background-position: 100% 50%;
+     }
+     100% {
+       background-position: 0% 50%;
+     }
+   }
+
+   
+  </style>
 </head>
 <body  data-aos="fade-in" >
   <STYLE>A {text-decoration: none;} </STYLE>
 <!-- Navbar section -->
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top " role="navigation" >
-    <div class="container-fluid">
-       
-        <a class="navbar-brand" href="index.html" > <img src="Resources/logo.gif" alt=""  height="48px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#a" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" role="navigation" >
+  <div class="container-fluid" >
+     
+      <a class="navbar-brand" href="index.html" > <img src="Resources/logo.gif" alt=""  height="48px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#a" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="a">
-         
-          <ul class="navbar-nav me-auto mb-0 mb-lg=0">
-                <a class="nav-link active dewanhover" aria-current="page" href="1.html" title="For more events to visit">Events</a>
-                <a class="nav-link active" aria-current="page" href="2.html">Place to Go</a>
-                <a class="nav-link active" aria-current="page" href="3.html">Things to Do</a>
-                <a class="nav-link active" aria-current="page" href="4.html">Guide on Visit</a>
-                <a class="nav-link active" aria-current="page" href="4.html">Blogs</a>
+        <div class="collapse navbar-collapse " id="a">
+            <ul class="navbar-nav mx-auto" style="text-align: center;">
+                <div class="dropdown">
+                  <a class="btn btn-transparent dropdown-toggle" title="For more events to visit" style="color: white;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                  </a>
                 
-            </ul>
-            <form class="d-flex input-group w-auto">
-              <input type="search" class="form-control" placeholder="Search places" aria-label="search" size="80px">
-            <span> <button class="btn btn-outline-dark" style="margin-left: 0%;" type="button"><b> <i class="fa fa-search" aria-hidden="true"></i> </b></button></span> 
-          </form>
-           <br>
-         <a href="Login.html"> <button class="btn bg-primary btn-dark ms-auto mb-auto mb-lg=0 " type="button" style="margin-left: 0%;" >Log In</button></a>
-          
-          
-         
-        
-    </div>
-    
+                  <ul class="dropdown-menu text-center"  aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item c1"  href="#">Action</a></li>
+                    <li><a class="dropdown-item c1" href="#">Another action</a></li>
+                    <li><a class="dropdown-item c1" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item c1" href="#">Show more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn btn-transparent dropdown-toggle c1" style="color: white;" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Place to Go
+                  </a>
+                
+                  <ul class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink1">
+                    <li><a class="dropdown-item c1" href="#">Action</a></li>
+                    <li><a class="dropdown-item c1" href="#">Another action</a></li>
+                    <li><a class="dropdown-item c1" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item c1" href="#">Show more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn btn-transparent dropdown-toggle" style="color: white;" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Things to Do
+                  </a>
+                
+                  <ul class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink2">
+                    <li><a class="dropdown-item c1" href="#">1. TREKKING</a></li>
+                    <li><a class="dropdown-item c1" href="#">2. PANORAMIC FLIGHT</a></li>
+                    <li><a class="dropdown-item c1" href="#">5. MOUNTAIN BIKING</a></li>
+                    <li><a class="dropdown-item c1" href="#">Show more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+           
+              <a class="nav-link active rounded" aria-current="page" href="4.html">Guide on Visit</a>
+              <a class="nav-link active rounded" aria-current="page" href="4.html">Blogs</a>
+            </ul> 
+       <div >
+       <ul class="navbar-nav1 ms-auto mb-auto mb-lg=0 ">
+            
+        <button class="btn btn-outline-warning bg-primary" type="button"><a target="_blank" href="Login.html"> Log in </a></button>
+      
+      
+   </ul>
+      </div>    
+       
+
+</div>
+  
+  
 </nav>
+
+
 <!-- Navbar close -->
 <!-- carocel -->
 <div id="b" class="carousel slide" data-bs-ride="carousel" >
@@ -149,10 +207,10 @@
 <!-- carocel close -->
   <div class="container-fluid" data-aos="fade-up" data-aos-offset="200" style="margin-top: 2%;" >
     <div class="row">
-      <div class="col-md-19 col-12 mx-auto shadow ">
+      <div class="col-md-19 col-12 mx-auto shadow row-cols-md-1">
      <div class="row">
         <div class="col-md-7 col-11 mx-auto shadow" style="margin-bottom: 1%; margin-top: 1%;">
-          <h1 style="padding-left: 48%; margin-top: 1%;">Nepal</h1> 
+          <h1 class="d-flex justify-content-center">Nepal</h1> 
                 <div class="row">
                     <!--  images div -->
                     
@@ -188,7 +246,7 @@
 <!-- card 1 -->
 <div class="row" style="margin-top: 2%; margin-bottom: 2%;" data-aos="fade-in" data-aos-offset="-50" >
   <div class="col-md-19 col-12 mx-auto shadow ">
-    <p style="font-style: oblique;" ><i class="fa fa-search" aria-hidden="true"></i> Popular in this Month---------------</p>
+    <p style="font-style: oblique;" ><i class="fa fa-search" aria-hidden="true"></i> Popular in this Month <hr></p>
 <div class="row row-cols-1 row-cols-md-4 g-4" data-aos="fade-in" data-aos-offset="200" >
   <div class="col" data-aos="zoom-in-up" data-aos-offset="-50" >
     <div class="card shadow" style="width:20rem; margin-bottom: 1%;  margin-left: 1%;">
@@ -345,11 +403,13 @@
 </div>
 </div>
 </div>
+<!-- youtube -->
+
 <!-- second cards -->
 <!-- card 1 -->
 <div class="row" style="margin-top: 2%; margin-bottom: 2%;" data-aos="fade-in" data-aos-offset="-50" >
   <div class="col-md-19 col-12 mx-auto shadow ">
-    <p style="font-style: oblique;" ><i class="fa fa-search" aria-hidden="true"></i> Recommeded Places for this Month---------------</p>
+    <p style="font-style: oblique;" ><i class="fa fa-search" aria-hidden="true"></i> Recommeded Places for this Month <hr> </p>
 <div class="row row-cols-1 row-cols-md-4 g-4" data-aos="fade-in" data-aos-offset="200" >
   <div class="col" data-aos="zoom-in-up" data-aos-offset="-50" >
     <div class="card shadow" style="width:20rem; margin-bottom: 1%;  margin-left: 1%;">
@@ -404,16 +464,16 @@
 </div>
 
 <!-- footer -->
-<footer class="footer_widgets row mt-5 gx-3" style="background-color: #181818; color:#fff; padding-top:40px;">
+<footer class="footer_widgets row mt-5 gx-3 " style="background-color: #181818; color:#fff; padding-top:40px;">
   <div class="footer_top" style="border-bottom: 1px solid #000;">
       <div class="container">
           <div class="row">
               
 
               <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="widgets_container">
+                  <div class="widgets_container text-center">
                       <h3 style="color:#fff;">Information</h3>
-                      <div class="footer_menu">
+                      <div class="footer_menu ">
                           <ul>
                               <a style="color:#fff;" href="1.html">About Us</a><br>
                               <a style="color:#fff;" href="2.html">FAQ</a></li>
@@ -428,13 +488,13 @@
                   </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="widgets_container contact_us">
+                  <div class="widgets_container contact_us text-center">
                       <h3 style="color:#fff;">Contact Us</h3>
-                      <div class="footer_contact">
+                      <div class="footer_contact text-center">
                           <p>Address: Kalanki, Kathmandu, Nepal</p>
                           <p>Phone: <a style="color:#fff;" href="tel:+9779800000000" target="_blank">(+977) 9840738115</a> </p>
                           <p>Email: <a style="color:#fff;" href="mailto:sachinsubedi616@gmail.com" target="_blank">sachinsubedi616@gmail.com</a></p>
-                          <ul>
+                          <ul >
                               
                               <a style="color:#fff;" href="https://www.facebook.com/" title="facebook" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
                               <a style="color:#fff; margin-left: 20px;" href="https://www.instagram.com/" title="instagram" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -454,10 +514,10 @@
                           
                            <div class="subscribe_form">
                               <form action="index.html">
-                                  <div>
+                                  <div class="text-center">
                                       <input type="email" name="subscriber_email" placeholder="Email Address" required="" style="color: #000;width: 100%;"><br>
 
-                                      <button class="btn btn-primary">Subscribe</button>
+                                      <button class="btn btn-primary text-center">Subscribe</button>
                                   </div>
                               </form>
                           </div>
@@ -465,7 +525,7 @@
                       
                   </div>
 
-                  <div class="footer_custom_links text-left">
+                  <div class="footer_custom_links text-center">
                      <br> Don't Forget to give feedback. It helps us to make website better.
                   </div>
 
