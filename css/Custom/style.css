@@ -38,7 +38,7 @@ background-color: lightgrey;
     box-sizing: border-box;
     font-family: ubunutu;
     border-radius: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     box-shadow: 5px 5px 10px #ccc;
     float:inline-start;
   }
@@ -63,6 +63,7 @@ background-color: lightgrey;
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
     }
+
     
     @keyframes gradient {
       0% {
@@ -77,7 +78,7 @@ background-color: lightgrey;
     }
 
 .dropdown-menu{
-  background: linear-gradient(-45deg, #ff0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+  background:  -gradient(-45deg, #ff0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -93,6 +94,12 @@ background-color: lightgrey;
     background-position: 0% 50%;
   }
 }
-.c1{
-  color: white;
+body{
+  font-family: ubunutu;
 }
+
+.card:hover{
+transform:translateY(-20px);
+transition-duration: 500ms;
+}
+
