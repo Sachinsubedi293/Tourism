@@ -27,8 +27,6 @@
  
  
   
-  /* Montserrat-300 - latin */
-  
   
     .card1 {
      width: 600px;
@@ -145,4 +143,9 @@ A {text-decoration: none;}
   background-image: url(shop1.jpg);
   max-height: 100%;
   
+}
+.c2{
+  background-color: rgba(165, 201, 212, 0.459);
+color: rgb(40, 43, 40);
+font-weight: bold;
 }

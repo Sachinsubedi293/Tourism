@@ -103,3 +103,12 @@ transform:translateY(-20px);
 transition-duration: 500ms;
 }
 
+.c1{
+  font-weight: bold;
+  color: #fff;
+}
+.c2
+{
+  font-weight: bold;
+  color: black;
+}
